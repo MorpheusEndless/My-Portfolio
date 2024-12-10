@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./css/contact.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+           <a href="./home.html"><img src="./assets/img/logo Og.png" alt="Logo"></a> 
+        </div>
+        <nav class="nav-bar">
+            <ul class="nav-links">
+                <li><a href="././home.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./projects.html">Projects</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <h1>Contact Me</h1>
+            <!-- Access Key -->
+            <input type="hidden" name="access_key" value="e6846aeb-8cfe-43c9-8797-f23e027ecd3d">
+        
+            <!-- Input Fields with Name Attributes -->
+            <input type="text" id="firstname" name="first_name" placeholder="First Name" required>
+            <input type="text" id="lastname" name="last_name" placeholder="Last Name" required>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <input type="text" id="mobile" name="phone" placeholder="Mobile" required>
+        
+            <!-- Message Field -->
+            <h4>Type Your Message Here...</h4>
+            <textarea name="message" placeholder="" required></textarea>
+        
+            <!-- Submit Button -->
+            <input type="submit" value="Send" id="button">
+        </form>
+        
+    </div>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="mailto:https://mail.google.com/mail/u/0/#inbox" target="_blank" class="icon email">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://wa.link/g9q6f1" target="_blank" class="icon whatsapp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/daniel-moyo-882145301/" target="_blank" class="icon linkedin">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            
+        </div>
+        <p class="footer-description">Let’s connect! Feel free to reach out for collaboration or inquiries.</p>
+    </footer>
+    <script src="./home.js"></script>
+  
+    <script src="./scrollreveal.min.js"></script>
+</body>
+</html>
+
+
+
+   
+
+
